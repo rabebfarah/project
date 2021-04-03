@@ -1,0 +1,19 @@
+{
+  "name": "react-recipe",
+  "version": "1.0.0",
+  "description": "Dbartii",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": " cd server && npm start /",
+    "front": " cd frontend && npm start",
+    "start": "concurrently \" npm run server \"   \" npm run front \""
+  },
+  "author": "rabeb",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "bootstrap-react": "^0.5.0-alpha.14",
+    "concurrently": "^6.0.0"
+  }
+}
